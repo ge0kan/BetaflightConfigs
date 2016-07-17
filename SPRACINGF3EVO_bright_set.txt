@@ -1,0 +1,136 @@
+### 2.9.0 ###
+
+#defaults
+
+### common
+set align_board_roll = 0
+set align_board_pitch = 0
+set align_board_yaw = -90
+feature ONESHOT125
+feature AIRMODE
+feature SUPEREXPO_RATES
+set acc_hardware =  AUTO #NONE
+set baro_hardware = NONE
+set mag_hardware = NONE
+
+### receiver s.bus
+serial 1 2 115200 57600 0 115200
+feature RX_SERIAL
+set serialrx_provider = SBUS
+
+### radio/aux
+map TAER1234
+set deadband = 0
+set yaw_deadband = 0
+set small_angle = 180
+set max_aux_channels = 4
+#set mid_rc = 1500
+#rxrange 0 1000 2000
+#rxrange 1 1000 2000
+#rxrange 2 1000 2000
+#rxrange 3 1000 2000
+
+### aux
+
+
+### motors
+set motor_pwm_rate = 8000
+feature -MOTOR_STOP
+set fast_pwm_protocol = MULTISHOT #ONESHOT125
+set disarm_kill_switch = ON
+set min_command = 1000
+set min_check = 1010
+#set min_throttle = 1130
+#set max_throttle = 1975
+
+### failsafe
+feature FAILSAFE
+set failsafe_procedure = ON
+set failsafe_delay = 10
+set failsafe_off_delay = 10
+set failsafe_throttle = 1350
+
+### blackbox
+set blackbox_rate_num = 1
+set blackbox_rate_denom = 1
+set blackbox_device = SDCARD
+
+### PIDs and rates
+#defaults
+#set gyro_sync_denom = 4
+#set pid_process_denom = 2
+set gyro_sync_denom = 1
+set pid_process_denom = 1
+
+#defaults
+#Optimal flight performance:
+#gyro_lowpass = 100
+#dterm_lowpass = 110
+
+#Slightly noisy setup:
+#gyro_lowpass = 80
+#dterm_lowpass = 100
+
+#Very noisy setup
+#gyro_lowpass = 50
+#dterm_lowpass = 100
+
+#2.6.1 defaults:
+#gyro_lowpass = 80
+#dterm_lowpass = 70
+
+#2.7.1 defaults:
+#gyro_lowpass = 100
+#dterm_lowpass = 110
+
+#2.8.1 defaults:
+#gyro_lowpass = 100
+#dterm_lowpass = 50
+
+#2.9.0 defaults:
+#gyro_lowpass = 100
+#dterm_lowpass = 100
+
+
+
+### profile
+set pid_controller = FLOAT
+
+#set p_pitch = 50
+#set i_pitch = 40
+#set d_pitch = 18
+
+#set p_roll = 45
+#set i_roll = 40
+#set d_roll = 18
+
+#set p_yaw = 80
+#set i_yaw = 45
+#set d_yaw = 20
+
+set pid_delta_method = ERROR #MEASUREMENT
+
+### rateprofile
+set roll_rate = 74
+set pitch_rate = 74
+set yaw_rate = 74
+
+set rc_expo = 13
+set rc_yaw_expo = 13
+
+#set tpa_rate = 20
+#set tpa_breakpoint = 1650
+
+set rc_rate = 100
+set rc_rate_yaw = 100
+set thr_mid = 50
+set thr_expo = 0
+
+### save
+save
+
+####################################################
+set pid_delta_method = MEASUREMENT
+
+### save
+save
