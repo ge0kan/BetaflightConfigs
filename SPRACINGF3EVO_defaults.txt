@@ -1,7 +1,7 @@
 # dump
 
 # version
-# BetaFlight/SPRACINGF3EVO 2.8.1 Jun 19 2016 / 20:33:36 (0c5ea0f)
+# BetaFlight/SPRACINGF3EVO 2.9.0 Jun 25 2016 / 23:45:39 (3d9b180)
 # dump master
 
 # mixer
@@ -191,6 +191,7 @@ set min_check = 1100
 set max_check = 1900
 set rssi_channel = 0
 set rssi_scale = 30
+set rc_smooth_interval_ms = 0
 set rssi_ppm_invert = OFF
 set input_filtering_mode = OFF
 set roll_yaw_cam_mix_degrees = 0
@@ -338,20 +339,21 @@ set gps_posr_d = 53
 set gps_nav_p = 25
 set gps_nav_i = 33
 set gps_nav_d = 83
+set pid_delta_method = MEASUREMENT
 set yaw_p_limit = 500
-set dterm_lowpass = 50
+set dterm_lowpass = 100
 set dynamic_iterm = ON
-set iterm_ignore_threshold = 200
+set iterm_ignore_threshold = 180
 set yaw_iterm_ignore_threshold = 35
 set yaw_lowpass = 80
-set pid_controller = LUX
+set pid_controller = FLOAT
 set p_pitch = 50
 set i_pitch = 40
 set d_pitch = 18
 set p_roll = 45
 set i_roll = 40
 set d_roll = 18
-set p_yaw = 90
+set p_yaw = 80
 set i_yaw = 45
 set d_yaw = 20
 set p_alt = 50
