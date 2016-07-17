@@ -1,7 +1,7 @@
 # dump
 
 # version
-# BetaFlight/SPRACINGF3EVO 2.7.1 May 16 2016 / 20:50:57 (74cd38a)
+# BetaFlight/SPRACINGF3EVO 2.8.1 Jun 19 2016 / 20:33:36 (0c5ea0f)
 # dump master
 
 # mixer
@@ -33,14 +33,17 @@ feature -ONESHOT125
 feature -BLACKBOX
 feature -CHANNEL_FORWARDING
 feature -TRANSPONDER
+feature -AIRMODE
+feature -SUPEREXPO_RATES
+feature RX_PPM
 feature VBAT
 feature FAILSAFE
 feature TELEMETRY
 feature CURRENT_METER
-feature RX_PARALLEL_PWM
 feature RSSI_ADC
 feature ONESHOT125
 feature TRANSPONDER
+feature SUPEREXPO_RATES
 
 
 # beeper
@@ -190,13 +193,13 @@ set rssi_channel = 0
 set rssi_scale = 30
 set rssi_ppm_invert = OFF
 set input_filtering_mode = OFF
-set rc_smoothing = OFF
 set roll_yaw_cam_mix_degrees = 0
 set max_aux_channels = 6
 set debug_mode = NONE
 set min_throttle = 1150
 set max_throttle = 1850
 set min_command = 1000
+set anti_desync_power_step = 0
 set servo_center_pulse = 1500
 set 3d_deadband_low = 1406
 set 3d_deadband_high = 1514
@@ -266,13 +269,10 @@ set throttle_correction_value = 0
 set throttle_correction_angle = 800
 set yaw_control_direction = 1
 set yaw_motor_direction = 1
-set yaw_jump_prevention_limit = 200
 set tri_unarmed_servo = ON
 set servo_lowpass_freq = 400
 set servo_lowpass_enable = OFF
-set super_expo_factor = 30
-set super_expo_factor_yaw = 30
-set super_expo_yaw = OFF
+set airmode_activate_throttle = 1350
 set failsafe_delay = 10
 set failsafe_off_delay = 10
 set failsafe_throttle = 1000
@@ -303,6 +303,7 @@ set blackbox_device = SERIAL
 set magzero_x = 0
 set magzero_y = 0
 set magzero_z = 0
+set ledstrip_visual_beeper = OFF
 
 # rxfail
 rxfail 0 a
@@ -338,23 +339,21 @@ set gps_nav_p = 25
 set gps_nav_i = 33
 set gps_nav_d = 83
 set yaw_p_limit = 500
-set dterm_lowpass = 110
-set dynamic_pterm = ON
-set iterm_always_reset = OFF
-set iterm_reset_degrees = 200
-set yaw_iterm_reset_degrees = 50
-set iterm_reset_offset = 15
+set dterm_lowpass = 50
+set dynamic_iterm = ON
+set iterm_ignore_threshold = 200
+set yaw_iterm_ignore_threshold = 35
 set yaw_lowpass = 80
-set pid_controller = MWREWRITE
-set p_pitch = 45
-set i_pitch = 35
+set pid_controller = LUX
+set p_pitch = 50
+set i_pitch = 40
 set d_pitch = 18
 set p_roll = 45
-set i_roll = 35
+set i_roll = 40
 set d_roll = 18
 set p_yaw = 90
-set i_yaw = 40
-set d_yaw = 0
+set i_yaw = 45
+set d_yaw = 20
 set p_alt = 50
 set i_alt = 0
 set d_alt = 0
@@ -370,13 +369,14 @@ rateprofile 0
 rateprofile 0
 
 set rc_rate = 100
-set rc_expo = 60
-set rc_yaw_expo = 20
+set rc_rate_yaw = 100
+set rc_expo = 10
+set rc_yaw_expo = 10
 set thr_mid = 50
 set thr_expo = 0
-set roll_rate = 50
-set pitch_rate = 50
-set yaw_rate = 50
+set roll_rate = 70
+set pitch_rate = 70
+set yaw_rate = 70
 set tpa_rate = 20
 set tpa_breakpoint = 1650
 
