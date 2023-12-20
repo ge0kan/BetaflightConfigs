@@ -59,6 +59,7 @@ vtxtable powerlabels 25 100 200 350
 set gyro_lowpass2_hz = 238
 set gyro_notch1_hz = 139
 set gyro_notch1_cutoff = 110
+set dyn_notch_width_percent = 0
 set dyn_lpf_gyro_min_hz = 190
 set dyn_lpf_gyro_max_hz = 475
 set acc_calibration = -35,32,116,1
@@ -72,6 +73,8 @@ set rssi_channel = 16
 set fpv_mix_degrees = 30
 set blackbox_p_ratio = 37
 set blackbox_device = NONE
+set dshot_idle_value = 500
+set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT600
 set bat_capacity = 850
 set vbat_max_cell_voltage = 420
