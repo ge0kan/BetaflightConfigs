@@ -161,15 +161,15 @@
 					"auxChannelIndex": 2,
 					"range": {
 						"start": 1700,
-						"end": 2075
+						"end": 2100
 					}
 				},
 				{
 					"id": 49,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 1300,
-						"end": 1700
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
@@ -761,15 +761,15 @@
 					"auxChannelIndex": 2,
 					"range": {
 						"start": 1700,
-						"end": 2075
+						"end": 2100
 					}
 				},
 				{
 					"id": 49,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 1300,
-						"end": 1700
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
@@ -1361,15 +1361,15 @@
 					"auxChannelIndex": 2,
 					"range": {
 						"start": 1700,
-						"end": 2075
+						"end": 2100
 					}
 				},
 				{
 					"id": 49,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 1300,
-						"end": 1700
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
@@ -2982,7 +2982,7 @@
 					"visible": true
 				}
 			],
-			"_beeperMask": 514
+			"_beeperMask": 2
 		}
 	},
 	"MODE_RANGES_EXTRA": [
