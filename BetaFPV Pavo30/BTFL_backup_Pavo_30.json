@@ -597,7 +597,7 @@
 			],
 			"RCdeadband": {
 				"deadband": 1,
-				"yaw_deadband": 0,
+				"yaw_deadband": 1,
 				"alt_hold_deadband": 40,
 				"deadband3d_throttle": 50
 			}
@@ -1197,7 +1197,7 @@
 			],
 			"RCdeadband": {
 				"deadband": 1,
-				"yaw_deadband": 0,
+				"yaw_deadband": 1,
 				"alt_hold_deadband": 40,
 				"deadband3d_throttle": 50
 			}
@@ -1797,7 +1797,7 @@
 			],
 			"RCdeadband": {
 				"deadband": 1,
-				"yaw_deadband": 0,
+				"yaw_deadband": 1,
 				"alt_hold_deadband": 40,
 				"deadband3d_throttle": 50
 			}
@@ -2590,7 +2590,7 @@
 		"serialrx_provider": 2,
 		"stick_max": 1900,
 		"stick_center": 1500,
-		"stick_min": 1050,
+		"stick_min": 1100,
 		"spektrum_sat_bind": 0,
 		"rx_min_usec": 885,
 		"rx_max_usec": 2115,
@@ -2827,7 +2827,8 @@
 				}
 			],
 			"_featureMask": 809763848,
-			"_analyticsChanges": {}
+			"_analyticsChanges": {},
+			"_featureChanges": {}
 		}
 	},
 	"MOTOR_CONFIG": {
