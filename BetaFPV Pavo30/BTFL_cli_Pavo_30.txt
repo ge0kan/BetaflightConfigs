@@ -133,6 +133,14 @@ set tpa_rate = 60
 
 rateprofile 1
 
+# rateprofile 1
+set roll_expo = 10
+set pitch_expo = 10
+set yaw_expo = 10
+set roll_srate = 80
+set pitch_srate = 80
+set yaw_srate = 80
+
 rateprofile 2
 
 rateprofile 3
@@ -142,7 +150,7 @@ rateprofile 4
 rateprofile 5
 
 # restore original rateprofile selection
-rateprofile 0
+rateprofile 1
 
 # save configuration
 save
