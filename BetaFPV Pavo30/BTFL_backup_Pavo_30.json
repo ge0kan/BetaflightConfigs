@@ -61,8 +61,8 @@
 				"rates_type": 0
 			},
 			"AccTrim": [
-				2,
-				4
+				0,
+				0
 			],
 			"ServoConfig": [
 				{
@@ -661,8 +661,8 @@
 				"rates_type": 0
 			},
 			"AccTrim": [
-				2,
-				4
+				0,
+				0
 			],
 			"ServoConfig": [
 				{
@@ -1261,8 +1261,8 @@
 				"rates_type": 0
 			},
 			"AccTrim": [
-				2,
-				4
+				0,
+				0
 			],
 			"ServoConfig": [
 				{
