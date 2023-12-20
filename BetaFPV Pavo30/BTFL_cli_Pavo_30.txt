@@ -1,4 +1,4 @@
-diff all
+# diff all
 
 # version
 # Betaflight / STM32F7X2 (S7X2) 4.2.6 Jan  5 2021 / 19:08:42 (a4b6db1e7) MSP API: 1.43
@@ -132,7 +132,7 @@ profile 1
 profile 2
 
 # restore original profile selection
-profile 1
+profile 0
 
 rateprofile 0
 
@@ -159,7 +159,7 @@ rateprofile 4
 rateprofile 5
 
 # restore original rateprofile selection
-rateprofile 1
+rateprofile 0
 
 # save configuration
 save
