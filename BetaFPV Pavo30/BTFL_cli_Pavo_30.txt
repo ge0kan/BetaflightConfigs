@@ -61,7 +61,7 @@ set gyro_notch1_hz = 139
 set gyro_notch1_cutoff = 110
 set dyn_lpf_gyro_min_hz = 190
 set dyn_lpf_gyro_max_hz = 475
-set acc_calibration = -52,38,236,1
+set acc_calibration = -35,32,116,1
 set mag_hardware = NONE
 set baro_bustype = I2C
 set baro_spi_device = 0
@@ -69,7 +69,7 @@ set baro_i2c_device = 1
 set baro_hardware = NONE
 set min_check = 1100
 set rssi_channel = 16
-set fpv_mix_degrees = 20
+set fpv_mix_degrees = 30
 set blackbox_p_ratio = 37
 set blackbox_device = NONE
 set motor_pwm_protocol = DSHOT600
@@ -129,7 +129,7 @@ profile 1
 profile 2
 
 # restore original profile selection
-profile 0
+profile 1
 
 rateprofile 0
 
