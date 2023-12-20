@@ -136,40 +136,40 @@
 					"id": 0,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1675,
-						"end": 2100
+						"start": 1275,
+						"end": 1700
 					}
 				},
 				{
 					"id": 1,
-					"auxChannelIndex": 1,
+					"auxChannelIndex": 2,
 					"range": {
-						"start": 1700,
-						"end": 2100
+						"start": 900,
+						"end": 1300
 					}
 				},
 				{
 					"id": 2,
-					"auxChannelIndex": 1,
+					"auxChannelIndex": 2,
 					"range": {
 						"start": 1300,
 						"end": 1700
 					}
 				},
 				{
-					"id": 35,
-					"auxChannelIndex": 2,
+					"id": 13,
+					"auxChannelIndex": 0,
 					"range": {
-						"start": 1350,
-						"end": 2075
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 35,
+					"auxChannelIndex": 2,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1700,
+						"end": 2075
 					}
 				},
 				{
@@ -596,7 +596,7 @@
 				}
 			],
 			"RCdeadband": {
-				"deadband": 0,
+				"deadband": 1,
 				"yaw_deadband": 0,
 				"alt_hold_deadband": 40,
 				"deadband3d_throttle": 50
@@ -736,40 +736,40 @@
 					"id": 0,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1675,
-						"end": 2100
+						"start": 1275,
+						"end": 1700
 					}
 				},
 				{
 					"id": 1,
-					"auxChannelIndex": 1,
+					"auxChannelIndex": 2,
 					"range": {
-						"start": 1700,
-						"end": 2100
+						"start": 900,
+						"end": 1300
 					}
 				},
 				{
 					"id": 2,
-					"auxChannelIndex": 1,
+					"auxChannelIndex": 2,
 					"range": {
 						"start": 1300,
 						"end": 1700
 					}
 				},
 				{
-					"id": 35,
-					"auxChannelIndex": 2,
+					"id": 13,
+					"auxChannelIndex": 0,
 					"range": {
-						"start": 1350,
-						"end": 2075
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 35,
+					"auxChannelIndex": 2,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1700,
+						"end": 2075
 					}
 				},
 				{
@@ -1196,7 +1196,7 @@
 				}
 			],
 			"RCdeadband": {
-				"deadband": 0,
+				"deadband": 1,
 				"yaw_deadband": 0,
 				"alt_hold_deadband": 40,
 				"deadband3d_throttle": 50
@@ -1336,40 +1336,40 @@
 					"id": 0,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1675,
-						"end": 2100
+						"start": 1275,
+						"end": 1700
 					}
 				},
 				{
 					"id": 1,
-					"auxChannelIndex": 1,
+					"auxChannelIndex": 2,
 					"range": {
-						"start": 1700,
-						"end": 2100
+						"start": 900,
+						"end": 1300
 					}
 				},
 				{
 					"id": 2,
-					"auxChannelIndex": 1,
+					"auxChannelIndex": 2,
 					"range": {
 						"start": 1300,
 						"end": 1700
 					}
 				},
 				{
-					"id": 35,
-					"auxChannelIndex": 2,
+					"id": 13,
+					"auxChannelIndex": 0,
 					"range": {
-						"start": 1350,
-						"end": 2075
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 35,
+					"auxChannelIndex": 2,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1700,
+						"end": 2075
 					}
 				},
 				{
@@ -1796,7 +1796,7 @@
 				}
 			],
 			"RCdeadband": {
-				"deadband": 0,
+				"deadband": 1,
 				"yaw_deadband": 0,
 				"alt_hold_deadband": 40,
 				"deadband3d_throttle": 50
@@ -1804,10 +1804,10 @@
 		}
 	],
 	"RCMAP": [
-		0,
 		1,
-		3,
 		2,
+		3,
+		0,
 		4,
 		5,
 		6,
@@ -3002,12 +3002,12 @@
 			"linkedTo": 0
 		},
 		{
-			"id": 35,
+			"id": 13,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
 		{
-			"id": 0,
+			"id": 35,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
