@@ -46,7 +46,7 @@
 				"pitch_rate": 0.7,
 				"yaw_rate": 0.7,
 				"dynamic_THR_PID": 0.6,
-				"throttle_MID": 0.5,
+				"throttle_MID": 0.45,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1350,
 				"RC_YAW_EXPO": 0,
@@ -646,7 +646,7 @@
 				"pitch_rate": 0.7,
 				"yaw_rate": 0.7,
 				"dynamic_THR_PID": 0.6,
-				"throttle_MID": 0.5,
+				"throttle_MID": 0.45,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1350,
 				"RC_YAW_EXPO": 0,
@@ -1246,7 +1246,7 @@
 				"pitch_rate": 0.7,
 				"yaw_rate": 0.7,
 				"dynamic_THR_PID": 0.6,
-				"throttle_MID": 0.5,
+				"throttle_MID": 0.45,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1350,
 				"RC_YAW_EXPO": 0,
@@ -2827,8 +2827,7 @@
 				}
 			],
 			"_featureMask": 809763848,
-			"_analyticsChanges": {},
-			"_featureChanges": {}
+			"_analyticsChanges": {}
 		}
 	},
 	"MOTOR_CONFIG": {
