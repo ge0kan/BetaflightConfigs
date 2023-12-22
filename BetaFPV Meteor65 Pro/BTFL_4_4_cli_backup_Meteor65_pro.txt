@@ -17,10 +17,22 @@ manufacturer_id BEFH
 mcu_id 004200533132510336393632
 signature 
 
+# feature
+feature -SOFTSERIAL
+feature -TELEMETRY
+
+# serial
+serial 1 2048 115200 57600 0 115200
+
 # master
 set acc_calibration = 31,14,20,1
+set fpv_mix_degrees = 20
+set small_angle = 90
+set pid_process_denom = 1
 set osd_canvas_width = 30
 set osd_canvas_height = 13
+set gyro_1_sensor_align = CW90
+set gyro_1_align_yaw = 900
 
 profile 0
 
