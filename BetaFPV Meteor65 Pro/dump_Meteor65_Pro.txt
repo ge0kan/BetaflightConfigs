@@ -882,17 +882,17 @@ set osd_total_flights_pos = 234
 set osd_stat_rtc_date_time = OFF
 set osd_stat_tim_1 = OFF
 set osd_stat_tim_2 = ON
-set osd_stat_max_spd = ON
+set osd_stat_max_spd = OFF
 set osd_stat_max_dist = OFF
 set osd_stat_min_batt = ON
-set osd_stat_endbatt = OFF
-set osd_stat_battery = OFF
+set osd_stat_endbatt = ON
+set osd_stat_battery = ON
 set osd_stat_min_rssi = ON
 set osd_stat_max_curr = ON
 set osd_stat_used_mah = ON
 set osd_stat_max_alt = OFF
-set osd_stat_bbox = ON
-set osd_stat_bb_no = ON
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF
 set osd_stat_max_g_force = OFF
 set osd_stat_max_esc_temp = OFF
 set osd_stat_max_esc_rpm = OFF
@@ -1127,9 +1127,9 @@ set simplified_pitch_pi_gain = 95
 set simplified_dterm_filter = ON
 set simplified_dterm_filter_multiplier = 110
 
-rateprofile 0
+rateprofile 1
 
-# rateprofile 0
+# rateprofile 1
 set rateprofile_name = -
 set thr_mid = 100
 set thr_expo = 45
