@@ -1,0 +1,47 @@
+defaults nosave
+
+
+# version
+# Betaflight / STM32F411 (S411) 4.4.3 Nov 14 2023 / 17:22:54 (738127e7e) MSP API: 1.45
+
+# config: YES
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name BETAFPVF411
+manufacturer_id BEFH
+mcu_id 004200533132510336393632
+signature 
+
+# master
+set acc_calibration = 31,14,20,1
+set osd_canvas_width = 30
+set osd_canvas_height = 13
+
+profile 0
+
+profile 1
+
+profile 2
+
+profile 3
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
