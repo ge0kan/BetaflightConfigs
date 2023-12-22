@@ -2,7 +2,7 @@ defaults nosave
 
 
 # version
-# Betaflight / STM32F411 (S411) 4.3.0 Jun 11 2022 / 08:24:06 (229ac6675) MSP API: 1.44
+# Betaflight / STM32F411 (S411) 4.3.2 Nov 28 2022 / 07:27:10 (60c9521) MSP API: 1.44
 
 # config: YES
 
@@ -56,7 +56,7 @@ set dyn_notch_q = 350
 set dyn_notch_min_hz = 130
 set gyro_lpf1_dyn_min_hz = 287
 set gyro_lpf1_dyn_max_hz = 575
-set acc_calibration = -41,23,15,1
+set acc_calibration = 18,37,10,1
 set fpv_mix_degrees = 20
 set serialrx_provider = CRSF
 set blackbox_sample_rate = 1/1
